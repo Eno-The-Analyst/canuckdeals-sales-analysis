@@ -83,6 +83,9 @@ LIMIT 10;
 ## Key Insights
 
 ### 1. Overall Sales Trends
+
+<img width="1063" height="596" alt="Overall Sales Performance" src="https://github.com/user-attachments/assets/efd44a1c-90f7-4516-91d1-caa861c71912" />
+
 - Nov 2019: Massive spike in total sales and orders → Likely Black Friday/Cyber Monday.
 - Mar 2020: Unexpected jump, possibly COVID-related stockpiling.
 - Sales patterns mirrored order volume across months.
@@ -92,6 +95,8 @@ LIMIT 10;
 - Apple generated highest revenue; Samsung had highest order volume.
 - computers.notebook generated high revenue but ranked lower in order count, high-ticket item.
 ### 3. Customer Behavior Deep Dive
+<img width="1066" height="597" alt="Customer Buying Pattern" src="https://github.com/user-attachments/assets/111bbe6e-8217-4c10-9ac0-546a5955c1cd" />
+
 - Sunday was the peak shopping day, a strong signal for promotional timing.
 - electronics.smartphone drove ~$32M in Nov 2019 alone, validating the Black Friday impact.
 - construction.tools.light showed steady growth with a major Feb 2020 spike.
@@ -107,6 +112,8 @@ LIMIT 10;
 - Declined in Nov 2019 despite high sales → confirms promotional one-time buyer pattern.
 - electronic.clocks showed flat, low repeat behavior → stable, low-engagement product.
 ### 7. Cross-Metric Patterns & Category Behavior
+<img width="1063" height="595" alt="Cross-Metrics Comparison" src="https://github.com/user-attachments/assets/b810476e-337d-4c19-99c8-46599b370229" />
+
 - Oct, Nov, Feb: Aligned peaks in AOV and Avg Orders → high engagement & revenue synergy.
 - Jan: Higher AOV, lower order count → post-holiday selective buying.
 - Apr: Fewer orders, higher AOV → pandemic bulk-buy behavior.
