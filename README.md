@@ -82,37 +82,45 @@ LIMIT 10;
 
 ## Key Insights
 
-### 1. Overall Sales Trends
+### 1. Sales Performance/Overview
 
-<img width="1063" height="596" alt="Overall Sales Performance" src="https://github.com/user-attachments/assets/efd44a1c-90f7-4516-91d1-caa861c71912" />
+<img width="928" height="521" alt="Overview" src="https://github.com/user-attachments/assets/fb2ffdba-b475-48d1-a946-45b48986bf7d" />
 
-- Nov 2019: Massive spike in total sales and orders → Likely Black Friday/Cyber Monday.
+- Nov 2019 & Dec 2019: Massive spike in total sales and orders → Likely Black Friday/Cyber Monday and holiday shopping season.
 - Mar 2020: Unexpected jump, possibly COVID-related stockpiling.
+- Apr 2020: Lowest sales and order volumes → early pandemic impact and shift to lower-value purchases.
 - Sales patterns mirrored order volume across months.
-### 2. Product & Brand Performance
-- Top-selling category: construction.tools.light
-- The "Unknown Category" had the 3rd highest sales, data quality issue masking opportunity.
-- Apple generated highest revenue; Samsung had highest order volume.
-- computers.notebook generated high revenue but ranked lower in order count, high-ticket item.
-### 3. Customer Behavior Deep Dive
-<img width="1066" height="597" alt="Customer Buying Pattern" src="https://github.com/user-attachments/assets/111bbe6e-8217-4c10-9ac0-546a5955c1cd" />
+### 2. Product Performance
+- Electronices dominates both revenue and volume; core growth driver.
+- "Unknown Product and "Unknown Category" rank among top performers; data quality issue masking opportunity.
+- TVs, Lights and Headphones are strong product performers; Appliances and Computers hold mid-tier positions.
+- Bottom categories (country_yard, medicine and stationery) contribute negligible revenue.
+### 3. Customer Purchasing Pattern
 
-- Sunday was the peak shopping day, a strong signal for promotional timing.
-- electronics.smartphone drove ~$32M in Nov 2019 alone, validating the Black Friday impact.
-- construction.tools.light showed steady growth with a major Feb 2020 spike.
-### 4. Average Order Value (AOV) Analysis
-- AOV peaked in early Feb 2020, potentially Valentine's Day influenced.
-- AOV for computers.notebook and electronics.smartphone trended down → may be heavily promotion-sensitive.
-- AOV for construction.tools.light rose post-Dec 2019 → potential value growth or price hike.
-### 5. Average Sales per Customer
-- Mirrors AOV trends → peaks in Feb 2020, dips after March.
+<img width="1064" height="596" alt="Customer Purchasing Pattern" src="https://github.com/user-attachments/assets/61a2b3b9-026d-4c04-99e8-9d1372d042d6" />
+
+- Sunday and Monday are the peak shopping days, a strong signal for promotional timing.
+- Although the Furniture category did not show up on the top 5categories sold or ordered, it shows up as the 5th category in AOV; signalling it as a higher price category.
+### 4. Low Performing Product-Category
+- For both bottom 5 products and bottom 5 categories, average Sales per Customer is greater than AOV which indicates high spending customers overall but low contribution from these items.
+- The Sport category, although low perfroming, trended not too badly over the year but did not translate to significant sales and could benefit from targeted marketing strategy.
+- Seasonal peaks overall failed to create sustained demand for these low performers.
+  <img width="1063" height="595" alt="Low-Performing Product-Category" src="https://github.com/user-attachments/assets/71548710-067d-4540-811d-241d35ef9cde" />
+
+### 5. Average Order Value (AOV) Analysis
+- AOV trend peaks in Feb 2020 and it is driven by the Electronics, Sofas and TVs category and product.
+- Among the top 5 AOV by category trend, the furniture and appliance remained low through the year.
+- Lights, although among the top 5 products, trended low in Oct and Nov 2019, among other top products.
+### 6. Average Sales per Customer Reporting
+- Mirrors AOV trends → peaks in Feb 2020 (a strong high value purchase month), dips after March.
 - Sharp drop post-Feb suggests churn or reduced purchasing due to early pandemic.
-- electronics.audio.headphones rose steadily from Dec onward, resilient category during disruption.
-### 6. Average Orders per Customer
-- Declined in Nov 2019 despite high sales → confirms promotional one-time buyer pattern.
-- electronic.clocks showed flat, low repeat behavior → stable, low-engagement product.
-### 7. Cross-Metric Patterns & Category Behavior
-<img width="1063" height="595" alt="Cross-Metrics Comparison" src="https://github.com/user-attachments/assets/b810476e-337d-4c19-99c8-46599b370229" />
+- Electronics and computers are stand out categories among the top categories over months and tv and sofa are top products among the top 5 products.
+### 7. Average Orders per Customer Reporting
+- Declined in Nov 2019 despite high sales, which confirms promotional one-time buyer pattern.
+- An unusual line up of top repeat buying products (cpu, diapers, headphone and videocards) and the bottom 
+products in this category reveals low repeat behavior → stable, low-engagement products.
+### 8. Metrics Comparison Insights
+<img width="931" height="520" alt="Metrics Comparison" src="https://github.com/user-attachments/assets/705782da-bc2a-4115-af17-a06d9561bab7" />
 
 - Oct, Nov, Feb: Aligned peaks in AOV and Avg Orders → high engagement & revenue synergy.
 - Jan: Higher AOV, lower order count → post-holiday selective buying.
@@ -125,26 +133,32 @@ LIMIT 10;
 ### Customer Retention Strategy
 - Nov 2019’s spike came from one-time shoppers. use retargeting or loyalty rewards to convert them.
 - Monitor post-promotion behavior to avoid drop-offs.
+- Use personalized follow-ups for high spending customers in low performing product categories.
 ### 2. Promotions & Pricing
+- Replicate the Feb 2020 high-value mix in other months to lift AOV and Average Sales per Customer.
 - Categories like smartphones and notebooks are highly sensitive to promotions. test adjusted pricing in off-peak seasons.
-- Consider strategic bundles or extended warranties to increase order value without reducing margin.
+- For low AOV categories, consider strategic bundles, extended warranties to increase order value without reducing margin and premium add ons instead of straight discounting.
 ### 3. Inventory Strategy
 - Ensure adequate stock during key events (Black Friday, Valentine’s, early March).
+- Stock high volume SKUs for Nov and high value SKUs for Feb.
 - Use AOV and Avg Orders metrics to predict volume per category.
 ### 4. Category Development
-- construction.tools.light shows momentum, double down with ad spend and product expansion.
-- Reposition "Unknown Category" by resolving metadata issues to unlock hidden patterns.
+- Fix "Unknown Product/Category" classification to reveal hidden opportunities.
+- Increase visibility for mid-tier categories and products with targeted campaigns.
+- Phase out or reposition chronically underperforming categories.
 ### 5. Cross-Sell & Loyalty Opportunities
-- Audio and headphone categories show repeat engagement, explore cross-sells with smartphones.
+- Target Electronics buyers with complementary offers e.g. accessories, etc.
+- Use high spending customer segments to cross sell low performing products.
 - Low-performing but loyal categories (bottom 5) may benefit from increased visibility.
 ### 6. Marketing Timing
-- Sunday spikes suggest ideal times for email pushes and promotions.
+- Concentrate campaigns on Sunday-Monday to match peak buying behavior.
 - Oct–Feb is a key high-engagement window.
+- Pre load promotions ahead of Nov and Feb spikes; fill demand gaps in Jan and Apr with limited time offers.
 
 ---
 
 ## What Could Be Improved
-- The category_code field is hierarchical and includes both category and subcategory/product name (e.g., electronics.smartphone). Splitting this into two separate columns, category and product_type would have allowed for more granular analysis (e.g., comparing smartphone vs. headphones across all electronics).
+- The metadata for categories and products needs to be fixed. Probably creating some constraints on category, sub-category and products columns to avoid blanks in the table design will help ensure that data is captured for those columns to improve analysis and forecast.
 - In future iterations, enriching the dataset with cost information could enable profit margin analysis, not just revenue.
 - A customer-level segmentation (e.g., new vs. returning) could further strengthen retention insights.
 
